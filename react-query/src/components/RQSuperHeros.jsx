@@ -10,10 +10,10 @@ function RQSuperHeros() {
     "super-heros",
     fetchSuperHeros,
     {
-      cacheTime: 5000,
+      staleTime: 30000,
     }
   );
-  console.log({ isFetching, isLoading });
+
   if (isLoading || isFetching) {
     return <h1>Loading...</h1>;
   }
