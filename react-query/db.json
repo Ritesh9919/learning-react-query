@@ -1,0 +1,19 @@
+{
+  "superHeros": [
+    {
+      "id": 1,
+      "name": "BatMan",
+      "AlterAgo": "Bruce mayne"
+    },
+    {
+      "id": 1,
+      "name": "BatMan",
+      "AlterAgo": "Bruce mayne"
+    },
+    {
+      "id": 1,
+      "name": "BatMan",
+      "AlterAgo": "Bruce mayne"
+    }
+  ]
+}
