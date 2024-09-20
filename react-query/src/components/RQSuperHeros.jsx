@@ -9,7 +9,7 @@ function RQSuperHeros() {
   const { isLoading, data, isError, error, isFetching } = useQuery(
     "super-heros",
     fetchSuperHeros,
-    { refetchOnMount: false, refetchOnWindowFocus: true }
+    { refetchInterval: 2000, refetchIntervalInBackground: true }
   );
 
   if (isLoading || isFetching) {
