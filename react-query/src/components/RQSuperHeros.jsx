@@ -7,11 +7,7 @@ const fetchSuperHeros = () => {
 };
 
 function RQSuperHeros() {
-  const [isPolling, setIsPolling] = useState(2000);
   const onSuccess = (data) => {
-    if (data.data.length == 15) {
-      setIsPolling(false);
-    }
     if (data) console.log("Perfom side effect after data fetchin", data);
   };
   const onError = (error) => {
@@ -23,8 +19,10 @@ function RQSuperHeros() {
     {
       onSuccess,
       onError,
-      refetchInterval: isPolling,
-      refetchIntervalInBackground: true,
+      select: (data) => {
+        const heroName = data.data.map((hero) => hero.name);
+        return heroName;
+      },
     }
   );
 
@@ -37,8 +35,11 @@ function RQSuperHeros() {
   return (
     <>
       <div>
-        {data?.data.map((hero) => (
+        {/* {data?.data.map((hero) => (
           <p>{hero.name}</p>
+        ))} */}
+        {data.map((heroName) => (
+          <p>{heroName}</p>
         ))}
       </div>
       <button onClick={refetch}>Fetch Heros</button>
