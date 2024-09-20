@@ -15,5 +15,19 @@
       "name": "Good Man",
       "AlterAgo": "Chanchal"
     }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chanchal"
+    },
+    {
+      "id": 2,
+      "name": "Vishal"
+    },
+    {
+      "id": 3,
+      "name": "Pawan"
+    }
   ]
 }
