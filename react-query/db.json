@@ -29,5 +29,17 @@
       "id": 3,
       "name": "Pawan"
     }
+  ],
+  "users": [
+    {
+      "id": "ritesh@gmail.com",
+      "channelId": "riteshm"
+    }
+  ],
+  "channels": [
+    {
+      "id": "riteshm",
+      "courses": ["react", "node.js"]
+    }
   ]
 }
