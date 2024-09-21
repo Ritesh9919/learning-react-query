@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Good Man",
       "AlterAgo": "Chanchal"
+    },
+    {
+      "id": "0272",
+      "name": "vishal Maurya",
+      "AlterAgo": "temp"
     }
   ],
   "friends": [
@@ -39,7 +44,10 @@
   "channels": [
     {
       "id": "riteshm",
-      "courses": ["react", "node.js"]
+      "courses": [
+        "react",
+        "node.js"
+      ]
     }
   ],
   "colors": [
