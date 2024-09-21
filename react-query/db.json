@@ -41,5 +41,39 @@
       "id": "riteshm",
       "courses": ["react", "node.js"]
     }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "Yellow"
+    },
+    {
+      "id": 2,
+      "label": "green"
+    },
+    {
+      "id": 3,
+      "label": "blue"
+    },
+    {
+      "id": 4,
+      "label": "black"
+    },
+    {
+      "id": 5,
+      "label": "pink"
+    },
+    {
+      "id": 6,
+      "label": "gray"
+    },
+    {
+      "id": 7,
+      "label": "cyan"
+    },
+    {
+      "id": 8,
+      "label": "voilet"
+    }
   ]
 }
